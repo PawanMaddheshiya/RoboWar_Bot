@@ -1,0 +1,32 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('Part1^robowar assembely.STEP',
+    '2024-09-13T03:02:50',
+    ( 'hp' ),
+    ( 'HP' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2024',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = DIRECTION ( 'NONE',  ( 0.000000000000000000, 0.000000000000000000, 1.000000000000000000 ) ) ;
+#2 = AXIS2_PLACEMENT_3D ( 'NONE', #13, #1, #4 ) ;
+#3 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #15 ) ;
+#4 = DIRECTION ( 'NONE',  ( 1.000000000000000000, 0.000000000000000000, 0.000000000000000000 ) ) ;
+#5 = PRODUCT_DEFINITION ( 'General', '', #14, #6 ) ;
+#6 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #15, 'design' ) ;
+#7 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#8 = PRODUCT ( 'Part1^robowar assembely', 'Part1^robowar assembely', '', ( #12 ) ) ;
+#9 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #8 ) ) ;
+#10 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #7 ) ;
+#11 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #5 ) ;
+#12 = PRODUCT_CONTEXT ( 'NONE', #7, 'mechanical' ) ;
+#13 = CARTESIAN_POINT ( 'NONE',  ( 0.000000000000000000, 0.000000000000000000, 0.000000000000000000 ) ) ;
+#14 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'Symmetric', '', #8, .NOT_KNOWN. ) ;
+#15 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+ENDSEC;
+END-ISO-10303-21;
